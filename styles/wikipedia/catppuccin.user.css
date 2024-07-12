@@ -45,7 +45,13 @@
   html.skin-theme-clientpref-os .skin-invert-image img,
   html.skin-theme-clientpref-os .skin-invert,
   html.skin-theme-clientpref-os
-    .oo-ui-iconElement-icon:not(.oo-ui-image-progressive, .oo-ui-image-destructive, .oo-ui-checkboxInputWidget-checkIcon, .oo-ui-image-invert, .mw-no-invert),
+    .oo-ui-iconElement-icon:not(
+      .oo-ui-image-progressive,
+      .oo-ui-image-destructive,
+      .oo-ui-checkboxInputWidget-checkIcon,
+      .oo-ui-image-invert,
+      .mw-no-invert
+    ),
   html.skin-theme-clientpref-os .oo-ui-indicatorElement-indicator {
     filter: none;
   }
@@ -124,8 +130,8 @@
     --color-warning: @yellow;
     --color-success: @green;
     --color-notice: #f8f9fa;
-    --color-content-added: #74c9ac;
-    --color-content-removed: #ef8174;
+    --color-content-added: @green;
+    --color-content-removed: @maroon;
     --color-placeholder: @subtext0;
     --color-disabled: @overlay2;
     --box-shadow-color-base: #fff;
@@ -139,9 +145,9 @@
     --background-color-progressive-subtle: fade(@accent-color, 10%);
     --background-color-destructive-subtle: #421211;
     --background-color-progressive--active: fade(@accent-color, 70%);
-    --background-color-error: #ff4242;
-    --background-color-error--hover: #ef8174;
-    --background-color-error--active: #f8a397;
+    --background-color-error: @red;
+    --background-color-error--hover: @maroon;
+    --background-color-error--active: @maroon;
     --background-color-error-subtle: #421211;
     --background-color-warning-subtle: #301d00;
     --background-color-success-subtle: #00261e;
@@ -168,8 +174,8 @@
     --border-color-warning: @yellow;
     --border-color-success: @green;
     --border-color-notice: #c8ccd1;
-    --border-color-content-added: #2a4b8d;
-    --border-color-content-removed: #a66200;
+    --border-color-content-added: @blue;
+    --border-color-content-removed: @peach;
     --border-color-progressive: @accent-color;
     --border-color-progressive--active: @accent-color;
     --border-color-progressive--hover: @accent-color;
