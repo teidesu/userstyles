@@ -45,11 +45,7 @@
   html.skin-theme-clientpref-os .skin-invert-image img,
   html.skin-theme-clientpref-os .skin-invert,
   html.skin-theme-clientpref-os
-    .oo-ui-iconElement-icon:not(.oo-ui-image-progressive):not(
-      .oo-ui-image-destructive
-    ):not(.oo-ui-checkboxInputWidget-checkIcon):not(.oo-ui-image-invert):not(
-      .mw-no-invert
-    ),
+    .oo-ui-iconElement-icon:not(.oo-ui-image-progressive, .oo-ui-image-destructive, .oo-ui-checkboxInputWidget-checkIcon, .oo-ui-image-invert, .mw-no-invert),
   html.skin-theme-clientpref-os .oo-ui-indicatorElement-indicator {
     filter: none;
   }
