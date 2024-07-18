@@ -145,6 +145,7 @@
     --background-color-progressive-subtle: fade(@accent-color, 10%);
     --background-color-destructive-subtle: #421211;
     --background-color-progressive--active: fade(@accent-color, 70%);
+    --background-color-progressive--hover: fade(@accent-color, 70%);
     --background-color-error: @red;
     --background-color-error--hover: @maroon;
     --background-color-error--active: @maroon;
@@ -161,6 +162,7 @@
     --background-color-neutral: @base;
     --background-color-neutral-subtle: @surface0;
     --background-color-inverted: @text;
+    --background-color-input-binary--checked: @accent-color;
     --border-base: 1px solid @surface0;
     --border-subtle: 1px solid @surface0;
     --border-color-base: @surface0;
